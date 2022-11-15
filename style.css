@@ -1,0 +1,18 @@
+.title-container {
+  padding: 10px;
+  font-size: 16px;
+  min-width: 100px;
+  width: 300px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn {
+    margin-top: 10px;
+    background-color: #5f9341;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

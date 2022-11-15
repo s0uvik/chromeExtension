@@ -1,0 +1,13 @@
+{
+    "name": "Title Copied",
+    "description": "Title Copy extention",
+    "version": "1.0" ,
+    "manifest_version": 3,
+    "action":{
+        "default_popup":"index.html",
+        "default_icon": "icon.jpg"
+    },
+    "permissions": [
+        "tabs"
+    ]
+}
