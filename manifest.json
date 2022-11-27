@@ -1,13 +1,22 @@
 {
-    "name": "Title Copied",
-    "description": "Title Copy extention",
-    "version": "1.0" ,
-    "manifest_version": 3,
-    "action":{
-        "default_popup":"index.html",
-        "default_icon": "icon.jpg"
-    },
-    "permissions": [
-        "tabs"
-    ]
+  "name": "Open Linkedin Profile",
+  "description": "This Extension Open Linkedin Profile",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "16": "images/16icon.png",
+    "32": "images/32icon.png",
+    "48": "images/48icon.png",
+    "128": "images/128icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["inject.js"]
+    }
+  ]
 }
