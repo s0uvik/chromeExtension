@@ -1,3 +1,21 @@
+.input-container {
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+}
+input{
+  height: 25px;
+  font-weight: 700;
+}
+input:focus {
+  border:3px solid #5f9341;
+  outline: #5f9341;
+}
+label {
+  font-size: 17px;
+}
+.linkedin-feed{
+  /* display: none; */
+}
 .btn {
   min-width: 100px;
   width: 300px;
@@ -9,5 +27,13 @@
   font-size: 18px;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.title-container {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  min-width: 100px;
+  width: 300px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
